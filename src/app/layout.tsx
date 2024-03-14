@@ -24,7 +24,7 @@ export default function RootLayout({
           <Link href={"/about"}>about</Link>
           <Link href={"/report"}>report</Link>
           <Link href={"/todo-csr"}>todo-CSR</Link>
-          <Link href={"/todo-ssr"}>todo-SSR</Link>
+          <a href={"/todo-ssr"}>todo-SSR</a>
         </div>
         <QueryProvider>
           <ReactQueryDevtools initialIsOpen={false} /> {children}

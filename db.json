@@ -1,7 +1,7 @@
 {
   "companyInfo": {
     "name": "주식회사 치와와르타",
-    "desctiption": "개빡친 치와와 컴퍼니입니다. 넥스트 열받습니다. 멍멍 왈",
+    "description": "개빡친 치와와 컴퍼니입니다. 넥스트 열받습니다. 멍멍 왈 치와왈",
     "image": "https://velog.velcdn.com/images/ksksks102/post/51c82a6e-d63f-497c-8b4b-f31d28b124e5/image.png"
   },
   "todos": [
@@ -10,24 +10,6 @@
       "title": "커피 마시기",
       "contents": "아메리카노 마시기",
       "isDone": false
-    },
-    {
-      "id": "6ffd",
-      "title": "하하하",
-      "contents": "하기싫어",
-      "isDone": true
-    },
-    {
-      "id": "4745",
-      "title": "하하하",
-      "contents": "하기싫어",
-      "isDone": true
-    },
-    {
-      "id": "7cde",
-      "title": "하하하",
-      "contents": "하기싫어",
-      "isDone": true
     },
     {
       "id": "d73f",
@@ -42,39 +24,57 @@
       "isDone": false
     },
     {
-      "id": "3225",
-      "title": "하하하",
-      "contents": "하기싫어",
-      "isDone": false
-    },
-    {
-      "id": "d910",
-      "title": "하하하",
-      "contents": "하기싫어",
-      "isDone": false
-    },
-    {
-      "id": "c3ba"
-    },
-    {
-      "id": "8ed9"
-    },
-    {
-      "id": "dd95"
-    },
-    {
-      "id": "cd52"
-    },
-    {
-      "id": "36b2",
-      "title": "해치우ㅝㅆ어",
-      "contents": "진짜루?",
-      "isDone": false
-    },
-    {
       "id": "9a67",
       "title": "ㄹ",
       "contents": "ㄴㅇㄹ",
+      "isDone": false
+    },
+    {
+      "id": "6c76",
+      "title": "멋있다",
+      "contents": "디자인",
+      "isDone": true
+    },
+    {
+      "id": "6b01",
+      "title": "김승희",
+      "contents": "야호",
+      "isDone": true
+    },
+    {
+      "id": "4305",
+      "title": "김승희 야야",
+      "contents": "호호홐",
+      "isDone": true
+    },
+    {
+      "id": "5fa3",
+      "title": "야야야야ㅑ양",
+      "contents": "박명수",
+      "isDone": true
+    },
+    {
+      "id": "be07",
+      "title": "김승희입니다",
+      "contents": "1",
+      "isDone": false
+    },
+    {
+      "id": "9510",
+      "title": "김승희입니다",
+      "contents": "1",
+      "isDone": false
+    },
+    {
+      "id": "c004",
+      "title": "김승희입니다",
+      "contents": "2",
+      "isDone": false
+    },
+    {
+      "id": "6e5f",
+      "title": "김승희이빈다",
+      "contents": "ㅇㅁㄴㄹ",
       "isDone": false
     }
   ]

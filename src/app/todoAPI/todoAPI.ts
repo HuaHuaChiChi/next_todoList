@@ -5,8 +5,19 @@ export const getTodos = async (): Promise<{ todos: Todo[] }> => {
     const response = await fetch(`/api/todos`, {
       method: "GET",
     });
-    console.log(response);
     return response.json();
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const getAboutTodos = async () => {
+  try {
+    const response = await fetch(`${process.env.REACT_APP_DB_URL}/todos`, {
+      method: "GET",
+      cache: "no-cache",
+    });
+    return response;
   } catch (error) {
     throw error;
   }
@@ -51,3 +62,18 @@ export const addTodo = async (todo: NewTodo): Promise<void> => {
     throw error;
   }
 };
+
+// 통계
+
+export const getReportTodo = async () => {
+  try {
+    const response = await fetch(`${process.env.REACT_APP_DB_URL}/todos`, {
+      method: "GET",
+      next: { revalidate: 10 },
+    });
+    return response;
+  } catch (error) {
+    throw error;
+  }
+};
+// :Promise<Todo[]>
