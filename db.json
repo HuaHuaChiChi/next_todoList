@@ -1,7 +1,7 @@
 {
   "companyInfo": {
     "name": "주식회사 치와와르타",
-    "desctiption": "개빡친 치와와 컴퍼니입니다. 넥스트 개 열받습니다. 멍멍 왈",
+    "desctiption": "개빡친 치와와 컴퍼니입니다. 넥스트 열받습니다. 멍멍 왈",
     "image": "https://velog.velcdn.com/images/ksksks102/post/51c82a6e-d63f-497c-8b4b-f31d28b124e5/image.png"
   },
   "todos": [
@@ -9,6 +9,24 @@
       "id": "1",
       "title": "커피 마시기",
       "contents": "아메리카노 마시기",
+      "isDone": false
+    },
+    {
+      "id": "c0e3",
+      "title": "sdfsdfasdf",
+      "contents": "dsfsdfsdfasd",
+      "isDone": false
+    },
+    {
+      "id": "0d8e",
+      "title": "sdfsdfasdf",
+      "contents": "dsfsdfsdfasd",
+      "isDone": false
+    },
+    {
+      "id": "df00",
+      "title": "sdfsdfasdf",
+      "contents": "dsfsdfsdfasd",
       "isDone": false
     }
   ]
