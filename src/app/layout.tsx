@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import QueryProvider from "./provider";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,9 @@ export default function RootLayout({
           <Link href={"/todo-csr"}>todo-CSR</Link>
           <Link href={"/todo-ssr"}>todo-SSR</Link>
         </div>
-        <QueryProvider>{children}</QueryProvider>
+        <QueryProvider>
+          <ReactQueryDevtools initialIsOpen={false} /> {children}
+        </QueryProvider>
       </body>
     </html>
   );
