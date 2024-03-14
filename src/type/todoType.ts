@@ -1,8 +1,10 @@
 export type Todo = {
-  id: number;
+  id: string;
   title: string;
-  content: string;
+  contents: string;
   isDone: boolean;
 };
 
 export type TodoData = Todo[];
+
+export type NewTodo = Omit<Todo, "id">;

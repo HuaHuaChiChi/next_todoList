@@ -1,10 +1,13 @@
 const About = async () => {
-  const response = await fetch("http://localhost:3000/api/company", {
-    method: "GET",
-    cache: "force-cache",
-  });
+  const response = await fetch(
+    `${process.env.REACT_APP_NEXT_SERVER_URL}/api/company`,
+    {
+      method: "GET",
+      cache: "no-cache",
+    }
+  );
   const result = await response.json();
-  console.log(result);
+  // console.log(result);
   const { name, desctiption, image } = result.companyInfo;
   return (
     <div>
