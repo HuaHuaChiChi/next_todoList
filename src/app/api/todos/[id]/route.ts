@@ -20,16 +20,20 @@ export async function PATCH(
   request: Request,
   { params }: { params: { id: string } }
 ) {
-  const { isDone } = await request.json();
   const { id } = params;
+  const { isDone } = await request.json();
+
+  console.log("백엔드 실행");
 
   const response = await fetch(`${process.env.REACT_APP_DB_URL}/todos/${id}`, {
     method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+    },
     body: JSON.stringify({ isDone: !isDone }),
   });
-  if (response.ok) {
-    return new Response("Todo update successfully", { status: 200 });
-  } else {
-    return new Response("Failed to delete todo", { status: response.status });
-  }
+  const result = await response.json();
+  console.log(result);
+
+  return new Response(JSON.stringify(result));
 }

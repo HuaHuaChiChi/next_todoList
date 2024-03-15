@@ -23,6 +23,7 @@ export const useToggleToDoMutation = () => {
   const ToggleToDoMutation = useMutation({
     mutationFn: toggleTodo,
     onSuccess: async () => {
+      console.log("토글 뮤테이트 실행");
       await queryClient.invalidateQueries({ queryKey: ["todos"] });
     },
   });
